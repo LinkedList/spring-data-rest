@@ -32,11 +32,11 @@ The previous example illustrates that `CrudRepository`, in fact, has four delete
 
 The following example shows Spring Security's older `@Secured` annotation, which is purely role-based:
 
-.spring-data-rest-webmvc/src/test/java/org/springframework/data/rest/webmvc//security/SecuredPersonRepository.java
+.spring-data-rest-webmvc/src/test/java/org/springframework/data/rest/webmvc/security/SecuredPersonRepository.java
 ====
 [source,java]
 ----
-include::{spring-data-rest-root}/spring-data-rest-webmvc/src/test/java/org/springframework/data/rest/webmvc//security/SecuredPersonRepository.java[tag=code]
+include::{spring-data-rest-root}/spring-data-rest-webmvc/src/test/java/org/springframework/data/rest/webmvc/security/SecuredPersonRepository.java[tag=code]
 ----
 ====
 
@@ -50,11 +50,11 @@ NOTE: If you are starting with a new project or first applying Spring Security, 
 
 To configure method level security, here is a brief snippet from Spring Data REST's test suite:
 
-.spring-data-rest-webmvc/src/test/java/org/springframework/data/rest/webmvc//security/SecurityConfiguration.java
+.spring-data-rest-webmvc/src/test/java/org/springframework/data/rest/webmvc/security/SecurityConfiguration.java
 ====
 [source,java]
 ----
-include::{spring-data-rest-root}/spring-data-rest-webmvc/src/test/java/org/springframework/data/rest/webmvc//security/SecurityConfiguration.java[tag=code]
+include::{spring-data-rest-root}/spring-data-rest-webmvc/src/test/java/org/springframework/data/rest/webmvc/security/SecurityConfiguration.java[tag=code]
 	...
 }
 ----
